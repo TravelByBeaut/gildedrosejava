@@ -9,13 +9,13 @@ public class AbstractItem extends Item {
 
     public void updateQuality() {
         if (super.sellIn < 0) {
-            quality = quality - 1;
+            quality -= 1;
         }
         if (super.quality > 0) {
-            quality = quality - 1;
+            quality -= 1;
         }
     }
     public void updateSellIn() {
-        sellIn = sellIn - 1;
+        sellIn -= 1;
     }
 }

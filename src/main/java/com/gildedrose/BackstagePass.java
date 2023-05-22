@@ -7,13 +7,13 @@ public class BackstagePass extends AbstractItem {
 
     @Override
     public void updateQuality() {
-        quality = quality + 1;
+        quality += 1;
 
         if (super.sellIn < 11) {
-            quality = quality + 1;
+            quality += 1;
         }
         if (super.sellIn < 6) {
-            quality = quality + 1;
+            quality += 1;
         }
         if (super.quality >= limit) {
             super.quality = limit;

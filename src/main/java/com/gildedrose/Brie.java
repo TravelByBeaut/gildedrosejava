@@ -10,7 +10,7 @@ public class Brie extends AbstractItem {
     public void updateQuality() {
         quality = quality + 1;
         if (super.sellIn < 0) {
-            quality= quality + 1;
+            quality += 1;
         }
     }
 

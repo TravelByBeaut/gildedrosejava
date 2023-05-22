@@ -7,7 +7,7 @@ public class Conjured extends AbstractItem {
 
     @Override
     public void updateQuality() {
-            quality = quality - 2;
+            quality -= 2;
     }
 
     @Override
